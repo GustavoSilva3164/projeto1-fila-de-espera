@@ -13,7 +13,7 @@ do {
     const newPatient = prompt('Digite o nome do novo paciente:');
     if (newPatient) {
       patients.push(newPatient);
-      alert(`${newPatient} foi adicionado à fila.`);
+      alert(`${newPatient} chegou, e agora esta na fila.`);
     }
   } else if (option === '2') {
     if (patients.length > 0) {
